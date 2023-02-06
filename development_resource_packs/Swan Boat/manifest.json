@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Swan Boat",
+		"description": "Swan Boat Resource Pack",
+		"uuid": "9847ee4f-0d29-9c0c-e052-423baaea05b5",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["SonorousKiizzu"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.1.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Swan Boat",
+			"type": "resources",
+			"uuid": "b1a6cc3d-1b9c-539c-1cb1-b0db39004a05",
+			"version": [1, 0, 0]
+		}
+	]
+}
