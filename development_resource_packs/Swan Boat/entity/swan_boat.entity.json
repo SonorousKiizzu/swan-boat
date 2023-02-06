@@ -12,18 +12,21 @@
 			"geometry": {
 				"default": "geometry.swan_boat"
 			},
-			"render_controllers": ["controller.render.default"],
+			"render_controllers": [
+				"controller.render.default"
+			],
 			"animations": {
 				"move": "animation.swan_boat.move"
 			},
 			"scripts": {
 				"animate": [
-					{ "move": "query.modified_move_speed"} 
+					{
+						"move": "query.modified_move_speed"
+					}
 				]
 			},
 			"spawn_egg": {
-				"base_color": "#ffffff",
-				"overlay_color": "#ff12e5"
+				"texture": "sonorous_swan_boat_item"
 			}
 		}
 	}

@@ -28,24 +28,23 @@
 					"pull_in_entities": true,
 					"seats": [
 						{
-							"position": [-0.5, 0.2, 0],
+							"position": [-0.5, 0.3, -0.5],
 							"min_rider_count": 0,
-							"max_rider_count": 1,
-							"rotate_rider_by": 0
+							"max_rider_count": 1
 						},
 						{
-							"position": [-0.5, 0.2, 0],
+							"position": [-0.5, 0.3, -0.5],
 							"min_rider_count": 2,
 							"max_rider_count": 2,
 							"rotate_rider_by": "query.has_any_family('blaze', 'creeper', 'enderman', 'illager', 'magmacube', 'piglin', 'player', 'skeleton', 'slime', 'villager', 'wandering_trader', 'witch', 'zombie', 'zombie_pigman') ? -90 : 0",
-							"lock_rider_rotation": 0
+							"lock_rider_rotation": 90
 						},
 						{
-							"position": [-0.5, 0.2, -1],
+							"position": [0.4, 0.3, -0.5],
 							"min_rider_count": 2,
 							"max_rider_count": 2,
 							"rotate_rider_by": "query.has_any_family('blaze', 'creeper', 'enderman', 'illager', 'magmacube', 'piglin', 'player', 'skeleton', 'slime', 'villager', 'wandering_trader', 'witch', 'zombie', 'zombie_pigman') ? -90 : 0",
-							"lock_rider_rotation": 0
+							"lock_rider_rotation": 90
 						}
 					]
 				}
@@ -125,25 +124,19 @@
 				"pull_in_entities": true,
 				"seats": [
 					{
-						"position": [-0.5, 0.2, 0],
+						"position": [-0.5, 0.3, -0.5],
 						"min_rider_count": 0,
-						"max_rider_count": 1,
-						"rotate_rider_by": -90,
-						"lock_rider_rotation": 90
+						"max_rider_count": 1
 					},
 					{
-						"position": [-0.5, 0.2, 0],
+						"position": [-0.5, 0.3, -0.5],
 						"min_rider_count": 2,
-						"max_rider_count": 2,
-						"rotate_rider_by": -90,
-						"lock_rider_rotation": 90
+						"max_rider_count": 2
 					},
 					{
-						"position": [-0.5, 0.2, -1],
+						"position": [0.4, 0.3, -0.5],
 						"min_rider_count": 2,
-						"max_rider_count": 2,
-						"rotate_rider_by": -90,
-						"lock_rider_rotation": 90
+						"max_rider_count": 2
 					}
 				]
 			},
